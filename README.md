@@ -13,14 +13,14 @@ NVM or NodeJS 8.6.0
 
 ### Commands
 
-`start` - Start the app for production
-`dev` - Start the app with nodemon
-`lint` - Run the linter
+`start` - Start the app for production<br />
+`dev` - Start the app with nodemon<br />
+`lint` - Run the linter<br />
 `test` - Run the tests
 
 ### Endpoints
 
-`GET /ping` - Health check endpoint, will return `pong` if that app is alive
+`GET /ping` - Health check endpoint, will return `pong` if that app is alive<br />
 `GET roman-numeral?number=*` - Returns the roman numeral in format { "input": "1", "output": "I" }
 
 ### Caveats
