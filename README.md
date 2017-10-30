@@ -33,4 +33,4 @@ I used babel register to allow the use of import in the app, however this requir
 
 I made the numeral divisions configurable when the class is initialised, but there isnt really any need. I would probably remove this from options if I spent more time on this.
 
-On test/test/routes/roman-numeral.js:29 I was going to add true to the expected fail states, however it does gets coerced to 1. I decided this was a rare edge case and that it wasnt worth adding an additional error check for.
+On test/routes/roman-numeral.js:29 I was going to add true to the expected fail states, however it does gets coerced to 1. I decided this was a rare edge case and that it wasnt worth adding an additional error check for.
